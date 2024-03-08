@@ -21,7 +21,7 @@ glmnet, dplyr, ggplot2, purrr
 ## Installation of scImmuAging
 install.packages("devtools")
 
-devtools::install_github("wenchaoli1007/scImmuAging")
+devtools::install_github("CiiM-Bioinformatics-group/scImmuAging")
 
 ## References
 Cell-Type-Specific Aging Clocks Unveil Inter-Individual Heterogeneity in Immune Aging and Rejuvenation during Infection and Vaccination
