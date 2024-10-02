@@ -24,6 +24,16 @@ install.packages("devtools")
 devtools::install_github("CiiM-Bioinformatics-group/scImmuAging")
 
 ## Extract model features and coefficients 
+model_set = 
+feature_set = 
+
+feature_set1 = list()
+for(i in c("CD4T", "CD8T", "MONO", "NK", "B"))
+{
+  temp_df = coef(model_set[[i]])
+  temp_feature = rownames(temp_df)[which(temp_df[,1] != 0)]
+  feature_set1[[i]] = temp_feature
+}
 
 
 ## Citation
