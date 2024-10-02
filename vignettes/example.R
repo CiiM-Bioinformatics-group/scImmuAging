@@ -9,7 +9,7 @@ setwd("~/HPscAC/data/")
 
 model_set = readRDS(system.file("data", "all_model.RDS", package = "HPscAC"))
 feature_set = readRDS(system.file("data", "all_model_inputfeatures.RDS", package = "HPscAC"))
-input = readRDS(system.file("data", demo_bcg_cd8t.RDS", package = "HPscAC"))
+input = readRDS(system.file("data", "demo_bcg_cd8t.RDS", package = "HPscAC"))
 
 cell_type = "CD8T"
 model = model_set[[cell_type]]
