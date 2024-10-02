@@ -1,15 +1,15 @@
 library(Seurat)
 library(dplyr)
 library(readr)
-library(HPscAC)
+library(scImmuAging)
 library(glmnet)
 library(purrr)
 
 setwd("~/HPscAC/data/")
 
-model_set = readRDS(system.file("data", "all_model.RDS", package = "HPscAC"))
-feature_set = readRDS(system.file("data", "all_model_inputfeatures.RDS", package = "HPscAC"))
-input = readRDS(system.file("data", "demo_bcg_cd8t.RDS", package = "HPscAC"))
+model_set = readRDS(system.file("data", "all_model.RDS", package = "scImmuAging"))
+feature_set = readRDS(system.file("data", "all_model_inputfeatures.RDS", package = "scImmuAging"))
+input = readRDS(system.file("data", "demo_bcg_cd8t.RDS", package = "scImmuAging"))
 
 cell_type = "CD8T"
 model = model_set[[cell_type]]
