@@ -23,7 +23,10 @@ install.packages("devtools")
 
 devtools::install_github("CiiM-Bioinformatics-group/scImmuAging")
 
-## References
+## Extract model features and coefficients 
+
+
+## Citation
 Cell-Type-Specific Aging Clocks Unveil Inter-Individual Heterogeneity in Immune Aging and Rejuvenation during Infection and Vaccination
 
 
