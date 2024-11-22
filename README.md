@@ -22,7 +22,9 @@ MacOS and Linux
 R 4.2.1, python 3.9.8
 
 ## Package requirements
-Seurat 4.0, FUMA 1.5.2, ggplot2 3.4.1, readr 2.1.3, tidyverse 1.3.2, glmnet 4.1.4, ggpubr 0.4.0, biomaRt 2.52.0, infotheo 1.2.0.1, purrr 0.3.4, ggridges 0.5.4, ComplexHeatmap 2.12.1, RcisTarget 1.16.0, GENIE3 1.18.0; python packages: pandas 1.4.4, numpy 1.19.5,  tensorflow 2.5.3, keras 2.5.0, scipy 1.9.3, sklearn 0.23.2, scanpy 1.9.13, mira 1.0.4.
+R: Seurat 4.0, FUMA 1.5.2, ggplot2 3.4.1, readr 2.1.3, tidyverse 1.3.2, glmnet 4.1.4, ggpubr 0.4.0, biomaRt 2.52.0, infotheo 1.2.0.1, purrr 0.3.4, ggridges 0.5.4, ComplexHeatmap 2.12.1, RcisTarget 1.16.0, GENIE3 1.18.0
+
+python: pandas 1.4.4, numpy 1.19.5,  tensorflow 2.5.3, keras 2.5.0, scipy 1.9.3, sklearn 0.23.2, scanpy 1.9.13, mira 1.0.4.
 
 ## Installation of scImmuAging
 install.packages("devtools")
