@@ -50,7 +50,7 @@ Installation will only take few seconds.
   
     }
 
-It will only take few minutes.
+It will only take few seconds.
 
 ## Citation
 Cell-Type-Specific Aging Clocks Unveil Inter-Individual Heterogeneity in Immune Aging and Rejuvenation during Infection and Vaccination
