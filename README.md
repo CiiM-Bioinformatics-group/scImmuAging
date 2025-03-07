@@ -55,6 +55,6 @@ Installation will only take few seconds.
 It will only take few seconds.
 
 ## Citation
-Cell-Type-Specific Aging Clocks Unveil Inter-Individual Heterogeneity in Immune Aging and Rejuvenation during Infection and Vaccination
+Li, W., et al. Single-cell immune aging clocks reveal inter-individual heterogeneity during infection and vaccination. Nat Aging (2025). https://doi.org/10.1038/s43587-025-00819-z
 
 
